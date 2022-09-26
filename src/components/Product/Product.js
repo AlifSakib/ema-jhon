@@ -7,13 +7,13 @@ const Product = ({ addToCart, product }) => {
   return (
     <div className="h-[500px] lg:w-[300px] md:w-[240px]font-quicksand space-y-4 border rounded-lg relative">
       <img
-        className="lg:w-72 md:w-[245px] h-72 rounded-lg m-1"
+        className="lg:w-72 md:w-[235px] h-72 rounded-lg m-1"
         src={img}
         alt=""
       />
       <div className="m-3">
         <h1>{name}</h1>
-        <p>{price}</p>
+        <p>Price : {price}</p>
         <div className="mt-6">
           <p>
             <small>Manufacturer : {seller}</small>
