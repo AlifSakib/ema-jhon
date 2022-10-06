@@ -2,8 +2,6 @@ import React from "react";
 
 const Cart = ({ carts }) => {
   console.log(carts);
-  // let totalPrice = carts.reduce((pre, curr) => pre + curr.price, 0);
-  // let totalShippingCost = carts.reduce((pre, curr) => pre + curr.shipping, 0);
 
   let totalPrice = 0;
   let totalShippingCost = 0;
